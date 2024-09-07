@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-image: url(../img/4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button img{
+    width: 250px;
+    height: 250px;
+    border: 4px outset;
+    filter: drop-shadow(1px 1px 40px springgreen);
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+h1{
+    color: aliceblue;
+    font-family: "Fascinate Inline", system-ui;
+    text-decoration: underline;
+    font-size: 40px;
+}
+h2{
+    font-family: "Nosifer", sans-serif;
+    font-size: 50px;
+    text-shadow: 10px 20px 3px white;
+}
+p{
+    font-size: 25px;
+    color: white;
+}
